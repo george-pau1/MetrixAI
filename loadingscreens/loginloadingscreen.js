@@ -19,7 +19,7 @@ const LoginLoadingScreen = ({ navigation }) => {
     const { fat, setFat} = useContext(FatContext)
     const { carbs, setCarbs} = useContext(CarbsContext)
     const { protein,setProtein} = useContext(ProteinContext)
-    const {globalemail, setEmail} = useContext(EmailContext) // Make sure to change this
+    const {globalemail, setEmail} = useContext(EmailContext) // Make sure to change this 
 
     useEffect(() => {
         const timer = setTimeout(() => {
